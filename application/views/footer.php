@@ -126,6 +126,14 @@
                   </ul> <!-- Service Time -->
                </div> <!-- Col End -->
             </div><!-- Content row end-->
+            <hr>
+            <div class="row m-2 pb-5">
+               <div class="col-md-12 text-center">
+                  <div class="copyright-info">
+                     <span>Copyright © 2025 <a href="#" class="text-white"> <?=$profile[0]->name?> </a> All Rights Reserved | Design &amp; Developed by <a target="_blank" href="https://fahad-jadiya.com" class="text-white">Fahad Jadiya</span>
+                  </div>
+               </div>
+            </div>
          </div><!-- Container end-->
       </div><!-- Footer Main-->
       </footer> <!-- Footer End -->
