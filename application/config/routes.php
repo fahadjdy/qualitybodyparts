@@ -53,6 +53,7 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['home'] = 'welcome/index';
 $route['about'] = 'welcome/about';
 $route['contact'] = 'welcome/contact';
 $route['gallery'] = 'welcome/gallery';
@@ -60,3 +61,6 @@ $route['services/(:any)'] = 'welcome/services/$1';
 $route['product/(:any)'] = 'welcome/product/$1';
 $route['services/(:any)/(:num)'] = 'welcome/services/$1/$2';
 $route['products'] = 'welcome/products';
+
+$route['lead/store'] = 'lead/store';
+$route['admin/lead'] = 'admin/lead';

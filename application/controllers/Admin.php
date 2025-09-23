@@ -30,7 +30,22 @@ class Admin extends CI_Controller {
 		$this->load->view('Admin/dashboard',$data);
 	}
 
-	
+	public function lead()
+	{
+		$this->db->select('*')
+				->from('leads')
+				->order_by('id', 'DESC');
+		$data['data'] = $this->db->get()->result();
+
+		$this->load->view('Admin/lead', $data);
+	}
+
+	public function deleteLead($id)
+	{
+		$this->db->delete('leads', ['id' => $id]);
+	}
+
+
 
 // category 
 	public function category()

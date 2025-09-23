@@ -73,26 +73,38 @@
                      <h2><span>Get</span> Catalogue</h2>
                      <div class="intro-form">
                         <!-- START copy section: General Contact Form -->
-                        <form class="contactMe small text-center" action="<?=base_url('assets/admin/profile/BROUCHER.pdf')?>" method="POST" enctype="multipart/form-data">
-                              <div class="form-row">
-                                 <div class="col-md-12">
-                                    <input type="text" name="name" data-displayname="Name" class="field" placeholder="Name*" required>
-                                 </div>
-                              </div>
-                              <div class="form-row form-row-second">
-                                 <div class=" col-md-12">
-                                    <input type="email" name="email" data-displayname="Email" class="field" placeholder="Email*" required>
-                                 </div>
-                              </div>
-                              <div class="form-row form-row-second">
-                                 <div class=" col-md-12">
-                                    <input type="number" name="mobile" data-displayname="Mobile" class="field" placeholder="Mobile*" required>
-                                 </div>
-                              </div>
-                              <div class="msg text-white"> Email Sent Successfully </div>
-               
-                              <button class="btn btn-bordered" type="submit" data-sending="Sending...">get catelogue</button>
+                       <form class="contactMe small text-center" 
+                              action="<?php echo site_url('lead/store'); ?>" 
+                              method="POST" 
+                              enctype="multipart/form-data">
+
+                        <div class="form-row">
+                           <div class="col-md-12">
+                              <input type="text" name="name" class="field" placeholder="Name*" required>
+                           </div>
+                        </div>
+
+                        <div class="form-row form-row-second">
+                           <div class="col-md-12">
+                              <input type="email" name="email" class="field" placeholder="Email*" required>
+                           </div>
+                        </div>
+
+                        <div class="form-row form-row-second">
+                           <div class="col-md-12">
+                              <input type="number" name="mobile" class="field" placeholder="Mobile*" required>
+                           </div>
+                        </div>
+
+                        <?php if ($this->session->flashdata('success')): ?>
+                           <div class="msg text-success"><?php echo $this->session->flashdata('success'); ?></div>
+                        <?php elseif ($this->session->flashdata('error')): ?>
+                           <div class="msg text-danger"><?php echo $this->session->flashdata('error'); ?></div>
+                        <?php endif; ?>
+
+                        <button class="btn btn-bordered" type="submit">Get Catalogue</button>
                         </form>
+
                         <!-- END copy section: General Contact Form -->
                      </div><!-- Intro Form -->
                   </div><!-- Intro Content -->
