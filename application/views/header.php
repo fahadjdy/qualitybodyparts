@@ -60,7 +60,7 @@
 </head>
 
 <body>
-   <div id="preloader">
+   <!-- <div id="preloader">
       <div class="preloader-wrapper">
          <div class="loader">
             <i class="fa fa-cog fa-spin"></i>
@@ -69,7 +69,7 @@
       <div class="preloader-cancel-btn">
          <a href="#" class="btn btn-bordered prelaoder-btn">Cancel Preloader</a>
       </div>
-   </div>
+   </div> -->
 
 
    <div class="ts-top-bar">
