@@ -855,15 +855,15 @@
                     var html = '';
                     if (settings.useSingleQuotes === true) {
                         if (align === "center") {
-                            html = "<div style='text-align:center;'><img src='" + url + "'></div>";
+                            html = "<div style='text-align:center;'><img loading="lazy"  src='" + url + "'></div>";
                         } else {
-                            html = "<img src='" + url + "' align='" + align + "'>";
+                            html = "<img loading="lazy"  src='" + url + "' align='" + align + "'>";
                         }
                     } else {
                         if (align === "center") {
-                            html = '<div style="text-align:center;"><img src="' + url + '"></div>';
+                            html = '<div style="text-align:center;"><img loading="lazy"  src="' + url + '"></div>';
                         } else {
-                            html = '<img src="' + url + '" align="' + align + '">';
+                            html = '<img loading="lazy"  src="' + url + '" align="' + align + '">';
                         }
                     }
                     restoreSelection(editorID, true);

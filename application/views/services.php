@@ -69,7 +69,7 @@
 						 <div class="col-lg-4 col-md-12">
 								<div class="ts-service-wrapper">
 									<span class="service-img">
-										<img class="img-fluid" loading="lazy" src="<?=base_url()?>assets/admin/product/<?php echo $prod->p_img;?>" alt="<?php echo $prod->p_name;?>">
+										<img loading="lazy"  class="img-fluid" loading="lazy" src="<?=base_url()?>assets/admin/product/<?php echo $prod->p_img;?>" alt="<?php echo $prod->p_name;?>">
 									</span> <!-- Service Img end -->
 									<div class="service-content">
 										<div class="service-icon">
@@ -113,10 +113,10 @@
             <div class="col-md-12">
                <div class="partner-carousel owl-carousel">
                   <figure class="partner-item partner-logo">
-                     <a href="#"><img class="img-fluid" src="<?=base_url()?>assets/user/images/clients/client-img1.png" alt=""></a>
+                     <a href="#"><img loading="lazy"  class="img-fluid" src="<?=base_url()?>assets/user/images/clients/client-img1.png" alt=""></a>
                   </figure> <!-- Figure end -->
                   <figure class="partner-item partner-logo">
-                     <a href="#"><img class="img-fluid" src="<?=base_url()?>assets/user/images/clients/client-img2.png" alt=""></a>
+                     <a href="#"><img loading="lazy"  class="img-fluid" src="<?=base_url()?>assets/user/images/clients/client-img2.png" alt=""></a>
                   </figure> <!-- Figure end -->
                </div> <!-- Partner carousel end -->
             </div> <!-- Col end -->

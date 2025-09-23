@@ -279,33 +279,6 @@
     top: -95px;
   }
 
-  /* Appointment */
-  .testimonial-carousel {
-    max-width: 100%;
-  }
-
-  .ts-appointment .form-container {
-    margin-bottom: 40px;
-  }
-
-  .testimonial-carousel {
-    margin: 0;
-  }
-
-  /* Newsletter */
-  .ts-newsletter .box-skew-sm-right {
-    padding-left: 75px;
-    padding-right: 35px;
-  }
-
-  .box-skew-sm-left {
-    padding-left: 70px;
-  }
-
-  .box-skew-area-right {
-    width: 132%;
-    padding-right: 10px;
-  }
 
   /* Footer */
   .footer-top .footer-box-content {
@@ -800,71 +773,6 @@
     width: 100%;
   }
 
-  /* Appointment */
-  section#ts-appointment {
-    padding-top: 0;
-  }
-
-  .testimonial-carousel {
-    max-width: 100%;
-  }
-
-  .ts-appointment .form-container {
-    margin-bottom: 40px;
-  }
-
-  .testimonial-carousel {
-    margin: 0;
-  }
-
-  .ts-main-form > section {
-    padding-left: 5px;
-    padding-right: 10px;
-  }
-
-  /* Newsletter */
-  .ts-news .news-carousel {
-    margin-top: 100px;
-  }
-
-  .news-carousel.owl-carousel .owl-nav {
-    top: -91px;
-  }
-
-  .ts-main-form .add_service_link {
-    margin-bottom: 15px;
-  }
-
-  .newsletter-form.contactMe {
-    padding-right: 45px;
-  }
-
-  .box-skew-area-left {
-    -webkit-transform: skew(0);
-    transform: skew(0);
-    margin-left: 0;
-  }
-
-  .box-skew-sm-left {
-    -webkit-transform: skew(0);
-    transform: skew(0);
-    padding-left: 50px;
-  }
-
-  .box-skew-sm-right {
-    -webkit-transform: skew(0);
-    transform: skew(0);
-    padding-left: 40px;
-    padding-right: 30px;
-  }
-
-  .box-skew-area-right {
-    width: 128%;
-    padding-right: 10px;
-    -webkit-transform: skew(0);
-    transform: skew(0);
-    padding-left: 60px;
-  }
 
   /* Footer */
   .footer-main {

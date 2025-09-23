@@ -38,7 +38,7 @@
                                     <label for="">Category Name</label>
                                     <input type="text" class="form-control" value="<?php echo $data[0]->c_name; ?>" name="c_name"> <br>
 									<label for="">Select Image</label>
-									<img height="200px" width="200px" src="<?php echo base_url('assets/admin/category/'.$data[0]->c_img); ?>" alt="" srcset="">
+									<img loading="lazy"  height="200px" width="200px" src="<?php echo base_url('assets/admin/category/'.$data[0]->c_img); ?>" alt="" srcset="">
 									<input type="file" class="form-control" name="c_img"> <br>
                                     <label for="">Category Description</label>
                                     <textarea class="content" name="c_content"><?php echo $data[0]->c_content; ?></textarea>

@@ -62,14 +62,14 @@
 
         if (_this.core.s.dynamic) {
             for (var j = 0; j < _this.core.s.dynamicEl.length; j++) {
-                pagerList += '<span class="lg-pager-cont"> <span class="lg-pager"></span><div class="lg-pager-thumb-cont"><span class="lg-caret"></span> <img src="' + _this.core.s.dynamicEl[j].thumb + '" /></div></span>';
+                pagerList += '<span class="lg-pager-cont"> <span class="lg-pager"></span><div class="lg-pager-thumb-cont"><span class="lg-caret"></span> <img loading="lazy"  src="' + _this.core.s.dynamicEl[j].thumb + '" /></div></span>';
             }
         } else {
             for (var i = 0; i < _this.core.items.length; i++) {
                 if (!_this.core.s.exThumbImage) {
-                    pagerList += '<span class="lg-pager-cont"> <span class="lg-pager"></span><div class="lg-pager-thumb-cont"><span class="lg-caret"></span> <img src="' + _this.core.items[i].querySelector('img').getAttribute('src') + '" /></div></span>';
+                    pagerList += '<span class="lg-pager-cont"> <span class="lg-pager"></span><div class="lg-pager-thumb-cont"><span class="lg-caret"></span> <img loading="lazy"  src="' + _this.core.items[i].querySelector('img').getAttribute('src') + '" /></div></span>';
                 } else {
-                    pagerList += '<span class="lg-pager-cont"> <span class="lg-pager"></span><div class="lg-pager-thumb-cont"><span class="lg-caret"></span> <img src="' + _this.core.items[i].getAttribute(_this.core.s.exThumbImage) + '" /></div></span>';
+                    pagerList += '<span class="lg-pager-cont"> <span class="lg-pager"></span><div class="lg-pager-thumb-cont"><span class="lg-caret"></span> <img loading="lazy"  src="' + _this.core.items[i].getAttribute(_this.core.s.exThumbImage) + '" /></div></span>';
                 }
             }
         }

@@ -49,7 +49,7 @@
 								<div class="ts-service-wrapper">
 									<span class="service-img">
 									    <a href="<?=base_url('services/').$cat_name?>">
-										<img class="img-fluid" style="height:250px !important;width:250px !important" loading="lazy" src="<?=base_url()?>assets/admin/category/<?php echo $cat->c_img;?>" alt="<?php echo $cat->c_name;?>">
+										<img loading="lazy"  class="img-fluid" style="height:250px !important;width:250px !important" loading="lazy" src="<?=base_url()?>assets/admin/category/<?php echo $cat->c_img;?>" alt="<?php echo $cat->c_name;?>">
 										</a>
 									</span> <!-- Service Img end -->
 									<div class="service-content">
@@ -90,10 +90,10 @@
             <div class="col-md-12">
                <div class="partner-carousel owl-carousel">
                   <figure class="partner-item partner-logo">
-                     <a href="#"><img class="img-fluid" src="<?=base_url()?>assets/user/images/clients/client-img1.png" alt=""></a>
+                     <a href="#"><img loading="lazy"  class="img-fluid" src="<?=base_url()?>assets/user/images/clients/client-img1.png" alt=""></a>
                   </figure> <!-- Figure end -->
                   <figure class="partner-item partner-logo">
-                     <a href="#"><img class="img-fluid" src="<?=base_url()?>assets/user/images/clients/client-img2.png" alt=""></a>
+                     <a href="#"><img loading="lazy"  class="img-fluid" src="<?=base_url()?>assets/user/images/clients/client-img2.png" alt=""></a>
                   </figure> <!-- Figure end -->
                </div> <!-- Partner carousel end -->
             </div> <!-- Col end -->

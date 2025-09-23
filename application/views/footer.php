@@ -61,8 +61,8 @@
             <div class="row">
                <div class="col-lg-3 col-md-6 footer-widget footer-about text-center">
                   <div class="footer-logo">
-                     <a href="index-2.html">
-                        <img class="img-fluid" src="<?=base_url()?>/assets/admin/profile/<?php  echo $profile[0]->logo; ?>" alt="<?php  echo $profile[0]->name; ?>">
+                     <a href="<?=base_url()?>">
+                        <img loading="lazy"  class="img-fluid" src="<?=base_url()?>/assets/admin/profile/<?php  echo $profile[0]->logo; ?>" alt="<?php  echo $profile[0]->name; ?>">
                      </a>
                   </div>
                   <!-- about data <p style="max-height: 100px;overflow:hidden"></p> -->
@@ -94,7 +94,6 @@
                <div class="col-lg-3 col-md-6 footer-widget news-widget ">
                   <h3 class="widget-title"><span>Our</span> Location</h3>
 				  <p><?php echo $profile[0]->address; ?></p>
-				<iframe src="<?php echo $profile[0]->map; ?>" frameborder="0" width="100%"></iframe>
                </div> <!-- Col End -->
                <div class="col-lg-3 col-md-6 footer-widget">
                   <h3 class="widget-title"><span>Working</span> Hours</h3>
@@ -148,8 +147,7 @@
    <script src="<?=base_url()?>assets/user/js/bootstrap.min.js"></script>
    <!-- Owl Carousel -->
    <script src="<?=base_url()?>assets/user/js/owl-carousel.2.3.0.min.js"></script>
-   <!-- Magnific popup js -->
-   <script src="<?=base_url()?>assets/user/js/jquery.magnific-popup.min.js"></script>
+   
    <script src="<?=base_url()?>assets/user/js/main.js"></script>
 
 

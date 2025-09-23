@@ -104,7 +104,7 @@
             <div class="row align-items-center">
                <div class="col-md-4 col-sm-4 text-center">
                   <a class="ts-logo " href="<?=base_url()?>" class="ts-logo">
-                     <img src="<?=base_url()?>/assets/admin/profile/<?php  echo $profile[0]->logo; ?>" alt="logo" width="150px">
+                     <img loading="lazy"  src="<?=base_url()?>/assets/admin/profile/<?php  echo $profile[0]->logo; ?>" alt="logo" height="72px">
                   </a>
                </div> <!-- Col End -->
                <div class="col-md-8 col-sm-8 float-right">
@@ -202,3 +202,24 @@
       </div> <!-- End of Header Angle-->
 
    </header> <!-- End of Header area-->
+
+
+   <script>
+document.addEventListener("DOMContentLoaded", function() {
+    let currentLocation = window.location.href;
+    let menuItems = document.querySelectorAll(".navbar-nav .nav-link");
+
+    menuItems.forEach(function(link) {
+        if (link.href === currentLocation) {
+            link.classList.add("active-link");
+        }
+    });
+});
+</script>
+
+<style>
+.navbar-nav .nav-link.active-link {
+    border-bottom: 2px solid #fff; /* active border */
+    color: #fff; /* optional text highlight */
+}
+</style>

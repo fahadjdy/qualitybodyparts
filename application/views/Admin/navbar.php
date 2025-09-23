@@ -2,10 +2,10 @@
                         <div class="container-fluid">
                             <div class="d-flex">
                                 <a class="header-brand" href="index.html">
-                                    <img src="<?php echo base_url('assets/admin/images/brand/logo.png'); ?>" class="header-brand-img desktop-lgo" alt="Admintro logo">
-                                    <img src="<?php echo base_url('assets/admin/images/brand/logo1.png'); ?>" class="header-brand-img dark-logo" alt="Admintro logo">
-                                    <img src="<?php echo base_url('assets/admin/images/brand/favicon.png'); ?>" class="header-brand-img mobile-logo" alt="Admintro logo">
-                                    <img src="<?php echo base_url('assets/admin/images/brand/favicon1.png'); ?>" class="header-brand-img darkmobile-logo" alt="Admintro logo">
+                                    <img loading="lazy"  src="<?php echo base_url('assets/admin/images/brand/logo.png'); ?>" class="header-brand-img desktop-lgo" alt="Admintro logo">
+                                    <img loading="lazy"  src="<?php echo base_url('assets/admin/images/brand/logo1.png'); ?>" class="header-brand-img dark-logo" alt="Admintro logo">
+                                    <img loading="lazy"  src="<?php echo base_url('assets/admin/images/brand/favicon.png'); ?>" class="header-brand-img mobile-logo" alt="Admintro logo">
+                                    <img loading="lazy"  src="<?php echo base_url('assets/admin/images/brand/favicon1.png'); ?>" class="header-brand-img darkmobile-logo" alt="Admintro logo">
                                 </a>
                                 <div class="app-sidebar__toggle" data-toggle="sidebar">
                                     <a class="open-toggle" href="index-2.html#">

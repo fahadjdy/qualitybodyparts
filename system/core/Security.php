@@ -481,9 +481,9 @@ class CI_Security {
 				$str = preg_replace_callback('#<a(?:rea)?[^a-z0-9>]+([^>]*?)(?:>|$)#si', array($this, '_js_link_removal'), $str);
 			}
 
-			if (preg_match('/<img/i', $str))
+			if (preg_match('/<img loading="lazy" /i', $str))
 			{
-				$str = preg_replace_callback('#<img[^a-z0-9]+([^>]*?)(?:\s?/?>|$)#si', array($this, '_js_img_removal'), $str);
+				$str = preg_replace_callback('#<img loading="lazy" [^a-z0-9]+([^>]*?)(?:\s?/?>|$)#si', array($this, '_js_img_removal'), $str);
 			}
 
 			if (preg_match('/script|xss/i', $str))
@@ -784,8 +784,8 @@ class CI_Security {
 	{
 		return preg_replace(
 			array(
-				'#<img[\s/]+.*?src\s*=\s*(["\'])([^\\1]+?)\\1.*?\>#i',
-				'#<img[\s/]+.*?src\s*=\s*?(([^\s"\'=<>`]+)).*?\>#i'
+				'#<img loading="lazy" [\s/]+.*?src\s*=\s*(["\'])([^\\1]+?)\\1.*?\>#i',
+				'#<img loading="lazy" [\s/]+.*?src\s*=\s*?(([^\s"\'=<>`]+)).*?\>#i'
 			),
 			'\\2',
 			$str

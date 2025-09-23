@@ -66,7 +66,7 @@
                      </h2>
                      <p><?=$profile[0]->about?> </p>
                      <span class="service-img">
-                        <img class="img-fluid" src="<?=base_url()?>assets/admin/product/<?=$data[0]->p_img?>" alt="">
+                        <img loading="lazy"  class="img-fluid" src="<?=base_url()?>assets/admin/product/<?=$data[0]->p_img?>" alt="">
                      </span>
                      <h3 class="column-title no-border">
                         <span>Service</span> Overview

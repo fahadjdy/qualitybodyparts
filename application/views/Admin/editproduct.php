@@ -54,7 +54,7 @@
                                     <label for="">product Name</label>
                                     <input type="text" class="form-control" value="<?php echo $data[0]->p_name; ?>" name="p_name"> <br>
 									<label for="">Select Image</label>
-									<img height="200px" width="200px" src="<?php echo base_url('assets/admin/product/'.$data[0]->p_img); ?>" alt="" srcset="">
+									<img loading="lazy"  height="200px" width="200px" src="<?php echo base_url('assets/admin/product/'.$data[0]->p_img); ?>" alt="" srcset="">
 									<input type="file" class="form-control" name="p_img"> <br>
                                     <label for="">product Description</label>
                                     <textarea class="content" name="p_content"><?php echo $data[0]->p_content; ?></textarea>

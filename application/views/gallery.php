@@ -42,7 +42,7 @@
 								 <div class="col-lg-4 col-md-6">
 										<div class="img-gallery">
 											<a class="gallery-popup" href="<?=base_url()?>assets/admin/igallery/<?php echo $gal->ig_img; ?>" title="<?php echo $gal->ig_name; ?>">
-												<img class="img-fluid" src="<?=base_url()?>assets/admin/igallery/<?php echo $gal->ig_img; ?>" alt="<?php echo $gal->ig_name; ?>">
+												<img loading="lazy"  class="img-fluid" src="<?=base_url()?>assets/admin/igallery/<?php echo $gal->ig_img; ?>" alt="<?php echo $gal->ig_name; ?>">
 													<div class="gallery-content">
 														<h3><?php echo $gal->ig_name; ?></h3>
 														<p><?php echo $profile[0]->name; ?></p>

@@ -59,6 +59,6 @@ $profile = $this->auth_model->get_profile();
 
     <!---Global-loader-->
     <div id="global-loader">
-        <img src="<?php echo base_url('assets/admin/images/svgs/loader.svg'); ?>" alt="loader">
+        <img loading="lazy"  src="<?php echo base_url('assets/admin/images/svgs/loader.svg'); ?>" alt="loader">
     </div>
     <!--- End Global-loader-->

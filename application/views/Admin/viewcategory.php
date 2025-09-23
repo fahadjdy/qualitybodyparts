@@ -27,7 +27,7 @@
                     <!-- Row -->
                     <div class="row text-center">
                         <div class="col-lg-3 col-12">
-						<img src="<?php echo base_url('assets/admin/category/'.$data[0]->c_img); ?>" alt="<?php echo $data[0]->c_name; ?>" class="img-fluid w-100">
+						<img loading="lazy"  src="<?php echo base_url('assets/admin/category/'.$data[0]->c_img); ?>" alt="<?php echo $data[0]->c_name; ?>" class="img-fluid w-100">
 						 <h2> <?php echo $data[0]->c_name; ?></h2>
 						</div>
 						<div class="col-lg-9 col-12">

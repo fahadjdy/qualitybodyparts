@@ -30,7 +30,7 @@
                 <?php echo form_open_multipart('Admin/updateProfile');?>
                 <div class="row">
                     <div class="col-sm-4 col-12 p-1 text-center">
-                        <img src="<?php echo base_url('assets/admin/profile/').$data[0]->logo; ?>" width="200px" alt="logo" srcset="">
+                        <img loading="lazy"  src="<?php echo base_url('assets/admin/profile/').$data[0]->logo; ?>" width="200px" alt="logo" srcset="">
                         <input type="hidden" name="old_logo" value="<?php echo $data[0]->logo; ?>">
                         <div class="form-group">
                             <label for="b_img" style="opacity: 1 !important;">Select Logo</label>
@@ -61,7 +61,7 @@
                                 <input type="text" value="<?php echo $data[0]->email; ?>" name="email" class="form-control" placeholder="Email">
                             </div>
                             <div class="col-sm-6 col-12 p-1">
-                                <img src="<?php echo base_url('assets/admin/profile/').$data[0]->favicone; ?>" width="50px" alt="favicone" srcset="">
+                                <img loading="lazy"  src="<?php echo base_url('assets/admin/profile/').$data[0]->favicone; ?>" width="50px" alt="favicone" srcset="">
                                 <input type="hidden" name="old_favicone" value="<?php echo $data[0]->favicone; ?>">
                                 <div class="form-group">
                                     <label for="favicon" style="opacity: 1 !important;">Select Favicone</label>
@@ -88,7 +88,7 @@
                         <div class="form-group">
                             <label for="about_img" style="opacity: 1 !important;">About Image ( size 3350px *
 								2200px)</label>
-                            <img src="<?php echo base_url('assets/admin/profile/').$data[0]->about_img; ?>" width="300px" alt="about Image" srcset=" ">
+                            <img loading="lazy"  src="<?php echo base_url('assets/admin/profile/').$data[0]->about_img; ?>" width="300px" alt="about Image" srcset=" ">
                             <input type="hidden" name="old_about_img" value="<?php echo $data[0]->about_img; ?>">
                             <div class="input-group ">
                                 <div class="custom-file " style="box-shadow: none !important;filter: none !important; ">

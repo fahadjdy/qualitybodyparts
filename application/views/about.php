@@ -33,7 +33,7 @@
                <div class="col-lg-7 col-md-12">
                   <div class="box-skew-hidden-left">
                         <div class="box-skew-left">
-                           <img class="img-fluid" src="<?=base_url()?>/assets/user/images/about/about-img2.jpg" alt="">
+                           <img loading="lazy"  class="img-fluid" src="<?=base_url()?>/assets/user/images/about/about-img2.jpg" alt="">
                         </div><!-- Box skew left -->
                   </div>
                </div> <!-- Col End -->
@@ -97,7 +97,7 @@
                </div><!-- Row end -->
             </div> <!-- Col end -->
             <div class="col-lg-5 col-md-12 text-right">
-               <span><img class="img-fluid" src="<?=base_url()?>/assets/user/images/our-history1.png" alt=""></span>
+               <span><img loading="lazy"  class="img-fluid" src="<?=base_url()?>/assets/user/images/our-history1.png" alt=""></span>
             </div> <!-- COl end -->
          </div> <!-- Row End -->
       </div> <!-- Container end -->

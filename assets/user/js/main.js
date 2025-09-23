@@ -112,45 +112,6 @@ $(function ($) {
 
 
    /* ---------------------------------------------
-               Testimonnial Slider 1
-   ------------------------------------------------ */
-
-   $(".testimonial-carousel").owlCarousel({
-      items: 1,
-      loop: true,
-      smartSpeed: 900,
-      dots: true,
-      nav: false,
-      autoplay: false
-   });
-
-
-   /* ---------------------------------------------
-               Testimonnial Slider 2
-   ------------------------------------------------ */
-
-   $(".ts-testimonial").owlCarousel({
-      items: 3,
-      loop: true,
-      smartSpeed: 900,
-      dots: true,
-      margin: 30,
-      nav: false,
-      autoplay: false,
-      responsive: {
-         0: {
-            items: 1,
-         },
-         600: {
-            items: 2,
-         },
-         1000: {
-            items: 3,
-         }
-      }
-   });
-
-   /* ---------------------------------------------
                Testimonnial Slider 3
    ------------------------------------------------ */
 

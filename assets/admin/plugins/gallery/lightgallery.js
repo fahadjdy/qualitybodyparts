@@ -854,7 +854,7 @@
                     videoClass = 'lg-has-html5';
                 }
 
-                _this.___slide[index].insertAdjacentHTML('beforeend', '<div class="lg-video-cont ' + videoClass + ' "><div class="lg-video"><span class="lg-video-play"></span><img class="lg-object lg-has-poster" src="' + _poster + '" /></div></div>');
+                _this.___slide[index].insertAdjacentHTML('beforeend', '<div class="lg-video-cont ' + videoClass + ' "><div class="lg-video"><span class="lg-video-play"></span><img loading="lazy"  class="lg-object lg-has-poster" src="' + _poster + '" /></div></div>');
             } else if (_isVideo) {
                 _this.___slide[index].insertAdjacentHTML('beforeend', '<div class="lg-video-cont "><div class="lg-video"></div></div>');
                 _lgUtils2.default.trigger(_this.el, 'hasVideo', {
@@ -863,7 +863,7 @@
                     html: _html
                 });
             } else {
-                _this.___slide[index].insertAdjacentHTML('beforeend', '<div class="lg-img-wrap"><img class="lg-object lg-image" src="' + _src + '" /></div>');
+                _this.___slide[index].insertAdjacentHTML('beforeend', '<div class="lg-img-wrap"><img loading="lazy"  class="lg-object lg-image" src="' + _src + '" /></div>');
             }
 
             _lgUtils2.default.trigger(_this.el, 'onAferAppendSlide', {

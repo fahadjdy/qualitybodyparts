@@ -227,7 +227,7 @@
                <div class="box-skew-hidden-left">
                   <div class="box-skew-left">
                        <div class="box-skew-img">
-                           <img class="img-fluid" src="<?=base_url()?>/assets/user/images/about/about-img1.jpg" alt="">
+                           <img loading="lazy"  class="img-fluid" src="<?=base_url()?>/assets/user/images/about/about-img1.jpg" alt="">
                        </div>
                      <div class="box-content-wrapper">
                         <h2 class="column-title">
@@ -256,7 +256,7 @@
                         <li>Long Life Parts</li>
                      </ul> <!-- List Round end -->
                   </div> <!-- Content wrapper end -->
-                  <img src="<?=base_url()?>/assets/user/images/about/about_img.png" alt="">
+                  <img loading="lazy"  src="<?=base_url()?>/assets/user/images/about/about_img.png" alt="">
                </div> <!-- Content Right End -->
             </div> <!-- Col end -->
          </div> <!-- Row End -->
@@ -342,7 +342,7 @@
 												 <div class="col-md-12">
 														<div class="ts-service-wrapper">
 															<span class="service-img">
-																<img class="img-fluid" style="height: 300px !important;" src="<?=base_url()?>assets/admin/category/<?=$cat->c_img?>" height="250px"alt="<?=$cat->c_name?>">
+																<img loading="lazy"  class="img-fluid" style="height: 300px !important;" src="<?=base_url()?>assets/admin/category/<?=$cat->c_img?>" height="250px"alt="<?=$cat->c_name?>">
 															</span> <!-- Service Img end -->
 															<div class="service-content">
 																<div class="service-icon">
@@ -373,10 +373,10 @@
             <div class="col-md-12">
                <div class="partner-carousel owl-carousel">
                   <figure class="partner-item partner-logo">
-                     <a href="#"><img class="img-fluid" src="<?=base_url()?>/assets/user/images/clients/client-img1.png" alt=""></a>
+                     <a href="#"><img loading="lazy"  class="img-fluid" src="<?=base_url()?>/assets/user/images/clients/client-img1.png" alt=""></a>
                   </figure> <!-- Figure end -->
                   <figure class="partner-item partner-logo">
-                     <a href="#"><img class="img-fluid" src="<?=base_url()?>/assets/user/images/clients/client-img2.png" alt=""></a>
+                     <a href="#"><img loading="lazy"  class="img-fluid" src="<?=base_url()?>/assets/user/images/clients/client-img2.png" alt=""></a>
                   </figure> <!-- Figure end -->
                </div> <!-- Partner carousel end -->
             </div> <!-- Col end -->

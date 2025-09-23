@@ -43,7 +43,7 @@
 								?>
 								 <li class="col-xs-6 col-sm-4 col-md-3 text-center" >
                                    
-                                        <img class="img-responsive"  src="<?php echo base_url('assets/admin/igallery/'.$gallery->ig_img); ?>" alt="<?php echo $gallery->ig_name; ?>">
+                                        <img loading="lazy"  class="img-responsive"  src="<?php echo base_url('assets/admin/igallery/'.$gallery->ig_img); ?>" alt="<?php echo $gallery->ig_name; ?>">
                                     
 									<button class="btn btn-danger m-2 delete" id="<?php echo $gallery->ig_id; ?>"> <i class="fa fa-trash"></i> </button>
                                 </li>

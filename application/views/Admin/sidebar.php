@@ -7,7 +7,7 @@
     <div class="app-sidebar__user">
         <div class="dropdown user-pro-body text-center">
             <div class="user-pic">
-                <img src="<?php echo base_url('assets/admin/images/users/2.jpg'); ?>" alt="user-img" class="avatar-xl rounded-circle mb-1">
+                <img loading="lazy"  src="<?php echo base_url('assets/admin/images/users/2.jpg'); ?>" alt="user-img" class="avatar-xl rounded-circle mb-1">
             </div>
             <div class="user-info">
                 <h5 class=" mb-1">Admin <i class="ion-checkmark-circled  text-success fs-12"></i></h5>
